@@ -1,0 +1,15 @@
+class_name: ApiTester
+modules:
+    enabled: [ApiHelper, REST, Laravel4, Asserts, Cli]
+    config:
+        REST:
+            url: http://localhost/v1/
+        Laravel4:
+            unit: false
+            filters: true
+            environment: functional
+        MongoDb:
+            dsn: 127.0.0.1/portabilidade
+            user: ''
+            password: ''
+

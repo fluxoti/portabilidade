@@ -1,0 +1,17 @@
+#! /usr/bin/env bash
+
+# configurações do mysql
+DBHOST=localhost
+DBNAME=portabilidade
+DBUSER=root
+DBPASSWD=
+
+# nome/ip do servidor
+SERVER_NAME=10.0.10.10
+
+# token de acesso à conta do sistema de portabilidade
+TOKEN = ''
+
+# git
+REPO=git@github.com:fluxoti/portabilidade.git
+
